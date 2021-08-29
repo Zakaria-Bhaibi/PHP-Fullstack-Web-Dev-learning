@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    margin-right: 20px;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after {
+    /*
+    content: "";
+    clear: both;
+    display: table;
+    */
+    /*This code snippet is a famous hack that many developers use to clear any floating objects after the box.*/
+    content: ".";
+    /* This display property you will learn in next lesson */
+    display: block;
+    clear: both;
+    height: 0;
+    /* Hide the content that we placed above “.” */
+    visibility: hidden;
+}

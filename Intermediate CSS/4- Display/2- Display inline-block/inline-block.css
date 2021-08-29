@@ -1,0 +1,12 @@
+body{
+    color: white;
+}
+li{
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+
+

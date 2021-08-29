@@ -1,0 +1,32 @@
+body{
+    width: 940px;
+    margin: 0 auto;
+    font: 10/1.5em;
+    }
+    header ,section , article , aside , footer{
+        display: block;
+    }
+    header , footer ,article h3{
+        padding: 0px;
+        text-align: center;
+    }
+article h3{
+    text-decoration: underline;
+    
+}
+aside{
+    float: left;
+    text-align: center;
+}
+section{
+    float: right;
+    width: 700px;
+    padding-left: 20px;
+    border-left: 2px dotted #b2a497;
+}
+footer{
+   clear: both !important;
+   width: 940px;
+   height: 100px;
+   padding: 10px;
+}
