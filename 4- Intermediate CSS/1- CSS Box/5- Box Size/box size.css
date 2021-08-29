@@ -1,0 +1,31 @@
+/*
+                Height and Width property is used to control the box sizes.
+
+                100 x 250 means 100 Width x 250 Height
+
+                Properties of the Height and Width:
+                - width
+                - height
+                - minwidth
+                - minheight
+                - maxwidth
+                - maxheight
+            */
+
+.box250{
+    border: 10px solid green;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+.minbox100{
+    border: 10px solid green;
+    margin: 10px;
+    height: 250px;
+    min-width: 100px;
+}
+.maxbox500{
+    border: 10px solid green;
+    margin: 10px;
+    max-width: 500px;
+}
