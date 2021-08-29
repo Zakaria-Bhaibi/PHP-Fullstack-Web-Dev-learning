@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <style>
+        /* 
+                font-family – Specify the font-name to be used.
+                font-size – Specify the size of the font in pixels or px. It is the same pixel used in MS Word.
+                font-style – Used to apply the italics, normal or oblique
+                font-weight – Weight is used to represent how thick the stroke of the font should be. Usually bold, light, medium
+                text-transform – Control the case of text – Uppercase or lowercase.
+                text-decoration – Decorating the text underline or over-line.
+                text-shadow – Add shadow at the back of the text.
+        */
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            line-height: 2em;
+            letter-spacing: 0.2em;
+            word-spacing: 0.5em;
+
+            font-style: italic;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            text-indent: 200px;
+            text-shadow: 1px 1px 0px red;
+
+        }
+        p::first-letter{
+            font-size: 200%;
+        }
+        p::first-line{
+            text-shadow: none;
+        }
+       
+        div{
+            padding: 10px;
+            width: 50%;
+            font-size: 40px;
+        }
+        .redboxrgb{
+            background-color:rgb(255,0,0) ;
+            color: white;
+        }
+        .redboxhex{
+            background-color: #FF0000;
+            color: white;
+        }
+        .redboxName{
+            background-color: red;
+            color: white;
+        }
+        .redboxdarkname{
+            background-color: darkred;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Quos atque sed commodi 
+        delectus temporibus qui, corporis incidunt 
+        dolorum ea dicta maxime voluptatem ipsa!
+         Deleniti est non beatae, illo vel amet.
+    </p>
+
+
+
+</body>
+</html>
