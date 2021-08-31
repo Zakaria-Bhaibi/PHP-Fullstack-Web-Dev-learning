@@ -1,0 +1,83 @@
+ /* Body Styling */
+ body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header Styling */
+header{
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color: gray;
+    margin: 15px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.sign-in{
+    background-color: #4887ef;
+    color: white;
+    padding: 7px 15px 7px;
+    border-radius: 5px;
+    
+}
+.sign-in:hover{
+    text-decoration: none;
+    box-shadow:  0 0 5px gray;
+}
+/* Styling The container */
+.container{
+    text-align: center;
+    margin-top: 140px;
+
+}
+ .container img{
+     width: 300px;
+     height: 200px;
+     margin-bottom: 20px;
+ }
+ /* Placeholder */
+ .placeholder{
+     width: 500px;
+     height: 35px;
+     font-size: 20px;
+     margin-bottom: 30px;
+ }
+ .placeholder::placeholder{
+     padding-left: 10px;
+     font-size: 17px;
+ }
+ /* Search Buttons */
+ .buttons{
+     padding: 5px;
+     margin-right: 20px;
+     font-size: 17px;
+ }
+  /* Styling Footer */
+  footer{
+    margin-top: 19%;
+    bottom: 0;
+    
+   }
+   .foot-left{
+       float: left;
+       margin-left: 15px;
+   }
+   .foot-right{
+       margin-right: 15px;
+       float: right ;
+   }
+   .foot-right a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: gray;
+   }
+   .foot-left a{
+       padding-right: 15px;
+        text-decoration: none;
+        color: gray;
+   }

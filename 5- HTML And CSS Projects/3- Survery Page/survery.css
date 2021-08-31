@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(46, 43, 43);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 0 auto;
+    text-align: center;
+}
+.c-email,.c-name,.c-select,.c-checkbox,.buttons{
+    margin-bottom: 20px;
+}
+.b{
+    padding: 5px;
+    margin-left: 10px;
+}
+footer{
+    background-color: rgb(46, 43, 43);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}

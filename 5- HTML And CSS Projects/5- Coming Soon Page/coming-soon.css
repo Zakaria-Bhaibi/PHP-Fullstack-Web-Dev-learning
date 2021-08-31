@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    padding: 100px;
+    font : 20px helvetica, sans-serif ;
+    color: #333;
+}
+h1{
+    font-size: 50px;
+}
+article{
+    display: block;
+    text-align: left;
+    width: 650px;
+    margin: 0 auto;
+}
+a{
+    color: #dc1800;
+    text-decoration: none;
+}
+a:hover{
+    color: #333;
+    text-decoration: none;
+}

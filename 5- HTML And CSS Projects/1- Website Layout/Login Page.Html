@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Page Styles */
+*,*:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder{
+            text-align: center;
+        }
+    /* Container */
+        body{
+            margin: 0;
+            text-align: center;
+            background-color: #f4f1de;
+        }
+        .container{
+            background-color: #e07a5f;
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 120px;
+            width: 300px;
+	
+        }
+        .nom,.prenom,.password,.selectdiv{
+            margin-bottom: 20px ;
+        }
+        .selectdiv{
+            color: white;
+	
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login Form</h1>
+        <div class="nom">
+        <input type="text" id="nom" placeholder="Nom">
+        </div>
+        <div class="prenom">
+            <input type="text" id="prenom" placeholder="Prenom">
+        </div>
+        <div class="password">
+            <input type="text" id="password" placeholder="password">
+        </div>
+        <div class="selectdiv">
+            <label for="select">Select Your Profession</label>
+                <select name="selectopt" class="selectopt">
+                    <option value="0">Selectioner</option>
+                    <option value="1">sbagh</option>
+                    <option value="2">njar</option>
+                    <option value="3">7addad</option>
+                </select>
+        </div>
+    </div>
+</body>
+</html>

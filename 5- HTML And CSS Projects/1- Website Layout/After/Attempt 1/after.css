@@ -1,0 +1,38 @@
+body{
+    background-color: #007FE8;
+    color: white;
+    text-align: center;
+    margin: 0 ; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px; 
+    padding: 0;
+}
+h1,header,nav,section,footer{
+    border: solid white;
+}
+
+h1{
+    font-family:'Noto Sans JP', sans-serif ;
+    margin: 10px 10px 0;
+   
+}
+header{
+    margin: 10px;
+}
+nav{
+    float: left;
+    height: 250px;
+    width: 20%;
+    margin: 10px 0px 10px 10px;
+}
+footer{
+    clear: both !important;
+    margin: 0 10px 0;
+}
+section{
+    float: right;
+    margin: 10px 10px 10px 0px;
+    height: 250px;
+    width: 75%;
+    text-align: center;
+}
