@@ -1,0 +1,1 @@
+var sitename = 'We\'ll be going to bootcamp soon! \nNew Line ';
