@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script type="txt/javascript" src="script.js"></script>
+    <script>
+        function checkformdata(){
+    //Query all elements that tag name is input
+    var inputs = document.getElementsByTagName("input");
+
+    var message = "Form Elements \n \n";
+
+    for (var i=0 ; i< inputs.length;i++){
+
+        if (inputs[i].getAttribute('type') == 'text'){
+            message += inputs[i].getAttribute('name') + ":";
+            message += inputs[i].value + "\n";
+        }
+    }
+
+    alert(message);
+    alert(document.getElementById('name1').value);
+    alert(document.getElementById('name2').value);
+
+
+
+}
+    </script>
+</head>
+<body>
+    <form>
+        Your First Name : <input type="text" id="name1" name="First Name"/> <br>
+        Your last Name : <input type="text" id="name2" name="Last Name"/>
+        <input type="button" value="Check" onclick="checkformdata();"/>
+
+    </form>
+</body>
+</html>
