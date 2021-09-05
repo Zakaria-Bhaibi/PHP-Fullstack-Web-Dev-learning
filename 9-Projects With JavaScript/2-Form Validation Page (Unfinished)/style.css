@@ -1,0 +1,33 @@
+
+fieldset{
+    width: 500px;
+}
+.errorsf{
+    height: 180px;
+}
+.button{
+    display: inline-block;
+    margin: 0 0 20px 20px;
+    padding: 7px 15px 7px;
+    background-color: red;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+legend{
+    font-size: 25px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    margin-bottom: 15px;
+}
+.errorsdiv{
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    height: 140px;
+    padding: 5px;
+}

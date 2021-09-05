@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script>
+        //Acessing Elements
+        var result ;
+
+        //Declaring Functions
+        function add(){
+            var x = parseInt(document.getElementById("x"));
+        var y = parseInt(document.getElementById("y"));
+        
+            result = x + y;
+            console.log(result);
+        }
+        
+    </script>
+</head>
+<body>
+    
+        <fieldset>
+            <label for="first">First Number</label><br>
+            <input type="number" id="x"><br>
+            <label for="second">Second Number</label><br>
+            <input type="number" id="y"><br>
+            <input type="button" value="+" onclick="add();">
+            <input type="button" value="-" onclick="substract();">
+            <input type="button" value="*" onclick="multiplier();">
+            <input type="button" value="/" onclick="division();"><br>
+            <label id="result"></label><br>
+            <script>
+                document.getElementById("result").innerHTML = result;
+            </script>
+        </fieldset>
+    
+</body>
+</html>
