@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function checkdata() {
+      document.getElementById("errorsdiv").innerHTML = "";
+      //Acess TextBox Content
+      var name1 = document.getElementById("name1").value;
+      var name2 = document.getElementById("name2").value;
+      var email = document.getElementById("email").value;
+
+      //Acess Radio Content
+      var tdi = document.getElementById("tdi");
+      var tri = document.getElementById("tri");
+      var tsi = document.getElementById("tsi");
+
+      //Acess Checkbox
+      var ch = document.getElementById("terms");
+
+      //Functions
+      if (name1 == "" || name2 == "" || email == "") {
+        document.getElementById("errorsdiv").innerHTML += "<p>First Name, Last Name, and email are Required</p>";
+
+      }
+      if ((tdi.checked == false) && (tri.checked == false) && (tsi.checked == false)) {
+        document.getElementById("errorsdiv").innerHTML += "<p>You need to check one branch</p> ";
+      }
+      if (!ch.checked) {
+        document.getElementById("errorsdiv").innerHTML += "<p>You need to Agree to our terms</p>";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Form Validation</h1>
+  <form>
+    <fieldset>
+      <legend>Informations</legend>
+      <label for="name1">Enter Your First Name</label>
+      <input type="text" id="name1"><br>
+      <label for="name2">Enter Your Last Name</label>
+      <input type="text" id="name2"><br>
+      <label for="email">Enter Your email</label>
+      <input type="text" id="email"><br>
+      <label>Choose Your Branch : </label>
+      <label for="tdi">TDI</label>
+      <input type="radio" name="branch" id="tdi">
+      <label for="tri">TRI</label>
+      <input type="radio" name="branch" id="tri">
+      <label for="tsi">TSI</label>
+      <input type="radio" name="branch" id="tsi"><br>
+      <input type="checkbox" name="terms" id="terms">
+      <label for="terms">Agree On Our Terms</label>
+    </fieldset><br>
+    <input type="button" value="Submit" class="button" onclick="checkdata();">
+    <fieldset class="errorsf">
+      <legend>Errors</legend>
+      <div class="errorsdiv" id="errorsdiv">
+
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
