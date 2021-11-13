@@ -1,1 +1,0 @@
-<?= "I like to travel and play online games" ?>
